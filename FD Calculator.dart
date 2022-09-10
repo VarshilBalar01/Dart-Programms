@@ -8,7 +8,7 @@ void main() {
   stdout.write('Annual Interest Rate:');
   double interest = double.parse(stdin.readLineSync());
 
-  stdout.write('Term (In Month):');
+  stdout.write('Term:');
   double time = double.parse(stdin.readLineSync());
   double Maturity_Value =
       principalAmount * pow((1 + (interest / 100)), (time / 12));
